@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="centerheader">
+  <h1 >Search a GitHub Username</h1>
+</div>
+  <form id="form" class="se" onsubmit="return formSubmit()">
+    <input type="text" id="search" class="input bordercol"  autofocus placeholder="Enter GitHub Username"/>
+  </form>
+  <main id="main">
+  <div class="header">
+    <div >
+        <img class="rounded-circle size" alt="avatar2" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
+    </div>
+     <div class="col">
+     <h1  class="com">John Doe</h1>
+     <h5 class="com">Repositories</h3>
+     <h5 class="com">📌 Orlando</h3>
+     <a href=" https://github.com/john_doe" style="text-decoration: none;"> <h5> Blog: </h5></a>
+     <h5 class="com" > Followers :</h3>
+     <h5 class="com" > Following:</h3>
+    </div>
+    </div>
+    <div class="sp">
+      <a href=" https://github.com/john_doe" style="text-decoration: none;"> 🔗https://github.com/john_doe</a>
+      </div>
+    </main>
+    <main id="second"></main>
+    <div class="center ">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(currentPage - 1)">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(1)">1</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(2)">2</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(3)">3</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(4)">4</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(5)">5</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(6)">6</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(7)">7</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(8)">8</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(9)">9</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(10)">10</a></li>
+  <li class="page-item"><a class="page-link" href="#" onclick="goToPage(currentPage + 1)">Next</a></li>
+</ul>
+          </nav>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

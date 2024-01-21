@@ -1,0 +1,88 @@
+.hordiv {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  font-family: sans-serif;
+}
+.child-element {
+  display: inline-block;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* 3 equal-height rows */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  grid-gap: 20px;
+}
+
+.card {
+  margin: 10px; /* Add spacing between cards */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.com {
+  padding: 5px;
+}
+.padding {
+  padding-top: 2px;
+}
+.sp {
+  margin-left: 30px;
+}
+.se {
+  padding-left: 600px;
+  padding-top: 50px;
+}
+.header{
+  display:flex;
+  flex-direction: row;
+  padding:10px;
+  justify-content: space-between;
+}
+
+.col{
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  padding:10px;
+  margin-left: 20px;
+
+}
+.size{
+  height:250px;
+  width:250px;
+}
+.second{
+  height:auto;
+}
+.centerheader{
+  padding-left: 33vw;
+  color:black  ;
+}
+body{
+    font-family: 'General Sans', sans-serif;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('path/to/general-sans.ttf'); /* Adjust path accordingly */
+}
+.input{
+  border-radius: 7px;
+  border-color: black;
+}
+.bordercol{
+    border: 1px solid black;
+    width:180px;
+}
+.cardbox{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
